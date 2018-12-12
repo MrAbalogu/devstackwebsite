@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-20775592-17"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-20775592-17');
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+     <script>
+       function onSubmit(token) {
+         document.getElementById("contact-us-form").submit();
+       }
+     </script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Hire Us | Symph - Mobile app, web design, and development company</title>
+    <meta name="description" content="Symph is a Philippine-based software design and development company that builds websites, web apps, mobile apps, custom software, CRM applications, UI/UX design, branding, digital strategy, and other digital products to solve business problems.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta property="og:title" content="Hire Us | Symph - Mobile app, web design, and development company">
+    <meta property="og:image" content="https://www.symph.co/img/img-meta.jpg">
+    <meta property="og:url" content="https://symph.co">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Symph is a Philippine-based software design and development company that builds websites, web apps, mobile apps, custom software, CRM applications, UI/UX design, branding, digital strategy, and other digital products to solve business problems.">
+    <meta property="og:site_name" content="Symph">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Hire Us | Symph - Mobile app, web design, and development company">
+    <meta name="twitter:description" content="Symph is a Philippine-based software design and development company that builds websites, web apps, mobile apps, custom software, CRM applications, UI/UX design, branding, digital strategy, and other digital products to solve business problems.">
+    <meta name="twitter:image" content="https://www.symph.co/img/img-meta.jpg">
+    <meta name="twitter:url" content="https://symph.co">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/main.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+
+    <nav class="navbar s-navbar navbar-expand-md navbar-light fixed-top">
+        <a class="navbar-brand" href="/">
+            <img src="../img/symph-logo.svg">
+        </a>
+        <button class="navbar-toggler" id="toggleNavbar" type="button">
+            <img src="/img/icons/nav-icon.svg">
+        </button>
+
+        <div class="collapse navbar-collapse" id="symphNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="work.html">Work</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Resources</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-cta active">
+                    <a class="nav-link" href="#footer">Hire Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="contact-us mb100">
+        <div class="d-flex">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-12 contact-us-details mb60">
+                        <a href="mailto:info@symph.co">info@symph.co</a>
+                        <p class="mbt60 d-block">350-T, V. Urgello St., Cebu City, <br>Philippines 6000</p>
+                        <div class="social-media">
+                            <a href="https://www.facebook.com/SymphCo/" target="_BLANK"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.instagram.com/symphco/" target="_BLANK"><i class="fab fa-instagram"></i></a>
+                            <a href="https://dribbble.com/symph" target="_BLANK"><i class="fab fa-dribbble"></i></a>
+                            <a href="https://twitter.com/symphco" target="_BLANK"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/sym-ph/" target="_BLANK"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-12 header-headings">
+                        <h2 class="h1">Let's Talk</h2>
+                        <p class="mb0">Tell us what you need and we will see how we can help.</p>
+                        <form id='contact-us-form' name='contact' method='POST' class='contact-form mt40' action='/thanks'><input type='hidden' name='form-name' value='contact' />
+                            <input type="text" name="name" placeholder="Name">
+                            <input type="text" name="email" placeholder="Email">
+                            <textarea name="message" id="" placeholder="Message"></textarea>
+                            <p class="hidden">
+                                <label>Our address: <input name="address" /></label>
+                            </p>
+                            <button type="submit" class="g-recaptcha cta-link" data-sitekey="6LflioAUAAAAALloY1I7osj4LADpOQ3-Mf6BJ6ej" data-callback='onSubmit'>Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <div class="mobile-nav-container"></div>
+
+    
+
+    <script src="js/vendor/jquery-3.3.1.min.js"></script>
+    <script src="js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/vendor/slick.min.js"></script>
+    <script src="js/vendor/modernizr-3.6.0.min"></script>
+    <script src="js/main.min.js"></script>
+    <!-- Start of HubSpot Embed Code -->
+      <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5025849.js"></script>
+    <!-- End of HubSpot Embed Code -->
+
+</body>
+
+</html>

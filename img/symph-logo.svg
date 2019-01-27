@@ -1,31 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="184px" height="43px" viewBox="0 0 184 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="201px" height="43px" viewBox="0 0 201 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <title>Group</title>
+    <title>Group 2</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient x1="50%" y1="34.2554209%" x2="50%" y2="100%" id="linearGradient-1">
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FAD961" offset="0%"></stop>
+            <stop stop-color="#F76B1C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="34.2554209%" x2="50%" y2="100%" id="linearGradient-2">
             <stop stop-color="#EEEEEE" offset="0%"></stop>
             <stop stop-color="#D8D8D8" offset="100%"></stop>
         </linearGradient>
-        <path d="M13,13 L20,13 L20,13 C24.418278,13 28,16.581722 28,21 L28,27 L28,27 C28,31.418278 24.418278,35 20,35 L13,35 L13,13 Z" id="path-2"></path>
+        <path d="M13,10 L20,10 L20,10 C24.418278,10 28,13.581722 28,18 L28,24 L28,24 C28,28.418278 24.418278,32 20,32 L13,32 L13,10 Z" id="path-3"></path>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(0.000000, -3.000000)">
-            <rect id="Rectangle-3" fill="url(#linearGradient-1)" opacity="0.300328351" x="0" y="3" width="38" height="43" rx="4"></rect>
-            <path d="M7,14 L32,14 L32,14 C33.1045695,14 34,14.8954305 34,16 L34,18 L34,18 C34,19.1045695 33.1045695,20 32,20 L7,20 L7,14 Z" id="Rectangle" fill="#00A6F8"></path>
-            <path d="M7,7 L26,7 L26,7 C27.6568542,7 29,8.34314575 29,10 L29,12 L29,12 C29,12.5522847 28.5522847,13 28,13 L7,13 L7,7 Z" id="Rectangle" fill="#00A6F8"></path>
-            <path d="M7,21 L33,21 L33,21 C34.1045695,21 35,21.8954305 35,23 L35,25 L35,25 C35,26.1045695 34.1045695,27 33,27 L7,27 L7,21 Z" id="Rectangle" fill="#00A6F8"></path>
-            <path d="M7,28 L32,28 L32,28 C33.1045695,28 34,28.8954305 34,30 L34,32 L34,32 C34,33.1045695 33.1045695,34 32,34 L7,34 L7,28 Z" id="Rectangle" fill="#00A6F8"></path>
-            <path d="M7,35 L28,35 L28,35 C28.5522847,35 29,35.4477153 29,36 L29,38 L29,38 C29,39.6568542 27.6568542,41 26,41 L7,41 L7,35 Z" id="Rectangle" fill="#00A6F8"></path>
-            <text id="devstack" font-family="Corbel-Bold, Corbel" font-size="40" font-weight="bold" letter-spacing="-1.60000002">
-                <tspan x="42.4691407" y="38" fill="#00A6F8">dev</tspan>
-                <tspan x="99.9347656" y="38" fill="#F5A623">stac</tspan>
-                <tspan x="163.886328" y="38" letter-spacing="-3" fill="#F5A623">k</tspan>
-            </text>
-            <g id="Rectangle-2">
-                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
-                <path stroke="#F5A623" stroke-width="0.5" d="M13.25,13.25 L13.25,34.75 L20,34.75 C24.2802068,34.75 27.75,31.2802068 27.75,27 L27.75,21 C27.75,16.7197932 24.2802068,13.25 20,13.25 L13.25,13.25 Z"></path>
+        <g id="Artboard" transform="translate(-239.000000, -173.000000)">
+            <g id="Group-2" transform="translate(239.000000, 167.000000)">
+                <text id="dev" font-family="Corbel-Bold, Corbel" font-size="45" font-weight="bold" letter-spacing="-1.60000002" fill="#00A6F8">
+                    <tspan x="40.375586" y="43">dev</tspan>
+                </text>
+                <text id="stack" fill="url(#linearGradient-1)" font-family="Corbel-Bold, Corbel" font-size="45" font-weight="bold" letter-spacing="-1.60000002">
+                    <tspan x="105.314697" y="43">stack</tspan>
+                </text>
+                <g id="Group-5" transform="translate(0.000000, 6.000000)">
+                    <rect id="Rectangle-3" fill="url(#linearGradient-2)" opacity="0.300328351" x="0" y="0" width="38" height="43" rx="4"></rect>
+                    <path d="M7,11 L32,11 L32,11 C33.1045695,11 34,11.8954305 34,13 L34,15 L34,15 C34,16.1045695 33.1045695,17 32,17 L7,17 L7,11 Z" id="Rectangle" fill="#00A6F8"></path>
+                    <path d="M7,4 L26,4 L26,4 C27.6568542,4 29,5.34314575 29,7 L29,9 L29,9 C29,9.55228475 28.5522847,10 28,10 L7,10 L7,4 Z" id="Rectangle" fill="#00A6F8"></path>
+                    <path d="M7,18 L33,18 L33,18 C34.1045695,18 35,18.8954305 35,20 L35,22 L35,22 C35,23.1045695 34.1045695,24 33,24 L7,24 L7,18 Z" id="Rectangle" fill="#00A6F8"></path>
+                    <path d="M7,25 L32,25 L32,25 C33.1045695,25 34,25.8954305 34,27 L34,29 L34,29 C34,30.1045695 33.1045695,31 32,31 L7,31 L7,25 Z" id="Rectangle" fill="#00A6F8"></path>
+                    <path d="M7,32 L28,32 L28,32 C28.5522847,32 29,32.4477153 29,33 L29,35 L29,35 C29,36.6568542 27.6568542,38 26,38 L7,38 L7,32 Z" id="Rectangle" fill="#00A6F8"></path>
+                    <g id="Rectangle-2">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <path stroke="#F5A623" stroke-width="0.5" d="M13.25,10.25 L13.25,31.75 L20,31.75 C24.2802068,31.75 27.75,28.2802068 27.75,24 L27.75,18 C27.75,13.7197932 24.2802068,10.25 20,10.25 L13.25,10.25 Z"></path>
+                    </g>
+                </g>
             </g>
         </g>
     </g>

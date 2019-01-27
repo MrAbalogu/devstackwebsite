@@ -1,6 +1,10 @@
 @media screen and (max-width: 500px) {
   .s-navbar .navbar-brand img {
     height: 45px;
-    width: auto; } }
+    width: auto; }
+
+  .footer-section .cta-footer > div > a {
+    font-size: 1.75rem;
+    line-height: 4rem; } }
 
 /*# sourceMappingURL=styles.css.map */
